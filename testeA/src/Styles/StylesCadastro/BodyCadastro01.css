@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+.body-login-all-things {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.steps-login-numbers {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0px 2rem 0px;
+}
+
+.steps-login-img {
+    width: 100%;
+    height: auto;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.steps-login-img img {
+    width: 700px;
+}
+
+.part-form-create-profile {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 5%;
+}
+
+.box-form-create-profile {
+    max-width: 75%;
+    max-height: min-content;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.88);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.part-one-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.part-one-title p {
+    color: #000;
+    font-family: Poppins;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+
+}
+
+.part-two-subtitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px 50px;
+
+}
+
+.part-subtitle-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px 50px;
+}
+
+.part-two-subtitle p {
+    color: #000;
+    font-family: Poppins;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.part-subtitle-login p {
+    color: #000;
+    font-family: Poppins;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    word-break: keep-all;
+    width: 80%;
+}
+
+.part-three-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.part-three-buttons button {
+    display: inline-flex;
+    padding: 20px 40px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    gap: 15px;
+    border-radius: 30px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    color: #000;
+    font-family: Poppins;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.button-contratar {
+    background: #AEDDFF;
+}
+
+.button-trabalhar {
+    background: #4EB4FF;
+}
+
+.part-four-submit-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+
+.part-four-submit-button button {
+    display: inline-flex;
+    padding: 10px 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    background: #FF5C00;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+}
+
+.button-contratar:hover {
+    background-color: #d5e039;
+}
+
+.button-trabalhar:hover {
+    background-color: #d5e039;
+}
+.button-contratar:focus {
+    background-color: #d5e039;
+}
+
+.button-trabalhar:focus {
+    background-color: #d5e039;
+}
+
+.button-submit:hover {
+    background-color: rgb(29, 173, 61);
+}
+
+/* step2 */
+.part-three-inputs {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.part-left-inputs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.part-three-inputs input {
+    border-radius: 30px;
+    border: 1px solid #B1A3A3;
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+}
+
+.part-three-inputs ::placeholder {
+    color: #868686;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.part-right-inputs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.termos-check-box {
+    font-size: 20px;
+    width: 80%;
+    text-align: center;
+    word-break: break-all;
+    margin-top: 5px;
+}
+
+.termos-check-box input {
+    height: 20px;
+    width: 20px;
+    margin-right: 15px;
+}
+
+.image-background {
+    height: 100%;
+    width: 100%;
+    background-image: url('../../Images/Utilitarios/background-tester.png');
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    background-position: center;
+    position: absolute;
+    float: left;
+}
+.body-screen-login{
+    position: absolute;
+    height: 100px;
+    width: 100%;
+}
+.footer-container-login{
+    text-align: center;
+    margin-bottom: 20px;
+}

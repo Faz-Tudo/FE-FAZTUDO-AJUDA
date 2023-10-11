@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html,
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.body-home-all-things{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.container-body{
+    background-color: aqua;
+    margin-left: 20vh;
+    margin-right: 20vh;
+    height: 100%;
+}
+
+.main-second-home-page {
+    height: auto;
+    /* border: purple solid 3px; */
+}
+
+.main-second-home-page .layout-ruler-4 {
+    margin-left: 20vh;
+    margin-right: 20vh;
+    height: auto;
+}
+
+.text-title-service {
+    /* border: #FF5C00 solid 3px; */
+    text-align: center;
+    font-family: POPPINS, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    color: #049DD9;
+    padding: 55px;
+}
+
+.service-type1 {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+
+.service-type1 img {
+    width: 350px;
+    height: 350px;
+    position: relative;
+    border-radius: 30px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.service-describe-type {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.describe-service {
+    width: 100%;
+    height: 250px;
+    font-family: poppins, sans-serif;
+    align-items: center;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    justify-content: center;
+    background: #D9D9D9;
+    box-shadow: 0px 6px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.describe-service-2 {
+    width: 100%;
+    height: 250px;
+    font-family: poppins, sans-serif;
+    align-items: center;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    justify-content: center;
+    background: #D9D9D9;
+    box-shadow: 0px 6px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.describe-service:hover {
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(4, 76, 217, 0.47) 100%);
+    height: 270px;
+    box-shadow: 0px 6px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.describe-service-2:hover {
+    background: linear-gradient(-90deg, rgba(255, 255, 255, 1) 0%, rgba(4, 76, 217, 0.47) 100%);
+    height: 270px;
+    box-shadow: 0px 6px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.describe-service h1 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 20vh;
+    margin-top: 20px;
+}
+
+.describe-service-2 h1 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-right: 20vh;
+    margin-top: 20px;
+    text-align: right;
+}
+
+.describe-service p {
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 20vh;
+    width: 70%;
+    margin-top: 10px;
+}
+
+.describe-service-2 p {
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 20vh;
+    margin-top: 10px;
+    margin-left: 20vh;
+    text-align: right;
+}
+
+.describe-service button {
+    display: flex;
+    width: 225px;
+    height: 36px;
+    padding: 10px 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #FF5C00;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-left: 35%;
+    margin-top: 10px;
+}
+
+.describe-service-2 button {
+    display: flex;
+    width: 225px;
+    height: 36px;
+    padding: 10px 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #FF5C00;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-left: 35%;
+    margin-top: 10px;
+}
+
+.describe-service a {
+    text-decoration: none;
+    text-decoration-color: none;
+    color: #FFF;
+    font-weight: 100;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.describe-service-2 a {
+    text-decoration: none;
+    text-decoration-color: none;
+    color: #FFF;
+    font-weight: 100;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
